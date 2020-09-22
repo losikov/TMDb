@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "test:build": "xcodebuild -workspace ./TMDb.xcodeproj/project.xcworkspace -configuration release -scheme TMDb -sdk iphonesimulator -derivedDataPath build",
+    "test:run": "wdio wdio.conf.js"
+  },
+  "devDependencies": {
+    "@wdio/appium-service": "^6.4.7",
+    "@wdio/cli": "^6.5.2",
+    "@wdio/jasmine-framework": "^6.5.0",
+    "@wdio/local-runner": "^6.5.2",
+    "@wdio/spec-reporter": "^6.4.7",
+    "@wdio/sync": "^6.5.0",
+    "appium": "^1.18.1"
+  }
+}

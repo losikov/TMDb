@@ -2,3 +2,5 @@
 TMDb.xcodeproj/project.xcworkspace/xcuserdata/
 TMDb.xcodeproj/xcuserdata
 
+build
+node_modules
